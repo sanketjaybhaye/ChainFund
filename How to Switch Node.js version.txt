@@ -1,0 +1,18 @@
+1. To use Node.js 20: nvm use 22.17.0
+2. To use Node.js 16.20.2: nvm use 16.20.2
+3. node -v
+
+To start website
+1. yarn install      # install dependencies
+2. yarn dev          # start Next.js dev server
+
+local node start using hardhat
+1. npx hardhat node
+2. npx hardhat run --network localhost scripts/deploy.js
+
+To Generate New Contract :
+node smart-contract/deploy.js
+
+Factory Address : 
+old : 0xCebbf05c78C334e1754e974AF3196AE2B0002c1C
+New : 0x7fFd0975cf2FEA0Aef9A3A3526dafFD8529ef8A1
