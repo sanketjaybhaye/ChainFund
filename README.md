@@ -18,7 +18,7 @@ ChainFund : Crowdfunding Platform Powered by Ethereum Blockchain
 3. Get 0.01 ether free by giving the ethereum address <br>`(https://cloud.google.com/application/web3/faucet/ethereum/sepolia)`
 
 ## To Deploy your own Contract 
-1. Create an account in [https://infura.io](https://infura.io/)
+1. Create an account in [https://infura.io](https://infura.io/) or [https://dashboard.alchemy.com/](https://dashboard.alchemy.com/)
 2. Create .env file in Ethereum directory and add these line to it.
 	> mnemonic = 'Your mnemonic code' <br>
 	link = 'Your infura end point link '
