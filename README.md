@@ -2,7 +2,7 @@
 
 [![Author](https://img.shields.io/badge/Author-SanketJaybhaye-blue)](https://github.com/)
 [![Version](https://img.shields.io/badge/Version-1.0-green)]()
-[![License](https://img.shields.io/badge/License-apache-2.0-yellow)]()
+[![License](https://img.shields.io/badge/License-Apache-yellow)]()
 
 **ChainFund** — Crowdfunding Platform Powered by Ethereum Blockchain
 
