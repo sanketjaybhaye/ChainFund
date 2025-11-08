@@ -1,33 +1,69 @@
 # ChainFund
-ChainFund : Crowdfunding Platform Powered by Ethereum Blockchain
 
-## Tech Stack 
-- Next JS
-- Chakra UI
-- Solidity
-- Web3.js
+[![Author](https://img.shields.io/badge/Author-YourName-blue)](https://github.com/)
+[![Version](https://img.shields.io/badge/Version-1.0-green)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
-## To run the application locally
-- Fork the Project 
-- run `yarn install` to install all the dependencies
-- run `yarn dev` to run the application locally
+**ChainFund** — Crowdfunding Platform Powered by Ethereum Blockchain
 
-## Prerequisites to create Campaign and Contribute
-1. Install **Metamask** as Google Chrome Extension and Create an account.
-2.  Request Ether by sharing your ethereum address in social media <br>(`https://sepolia.basescan.org/)`
-3. Get 0.01 ether free by giving the ethereum address <br>`(https://cloud.google.com/application/web3/faucet/ethereum/sepolia)`
+## Tech Stack
 
-## To Deploy your own Contract 
-1. Create an account in [https://infura.io](https://infura.io/) or [https://dashboard.alchemy.com/](https://dashboard.alchemy.com/)
-2. Create .env file in Ethereum directory and add these line to it.
-	> mnemonic = 'Your mnemonic code' <br>
-	link = 'Your infura end point link '
-3. Do the Changes that you want to do inside the Solidity File
-4. Compile the Contract 
-  `node compile.js`
-5. Deploy Contract by going into smart-contract Directory and run.
-	`node deploy.js`
-   Copy the contract deploy address and replace it in factory.js file.
-  
-6. Replace your "infura end point link" in web3.js file
+* **Frontend:** Next.js, Chakra UI
+* **Smart Contracts:** Solidity
+* **Blockchain Interaction:** Web3.js
 
+## Running the Application Locally
+
+1. Fork the project.
+2. Install dependencies:
+
+```bash
+yarn install
+```
+
+3. Start the development server:
+
+```bash
+yarn dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Prerequisites to Create Campaigns and Contribute
+
+1. Install **MetaMask** Chrome extension and create an account.
+2. Fund your Ethereum wallet for testing:
+
+   * Request Ether via social media or testnets: [Sepolia Explorer](https://sepolia.basescan.org/)
+   * Get 0.01 test Ether: [Google Cloud Web3 Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
+
+## Deploying Your Own Smart Contract
+
+1. Create an account on [Infura](https://infura.io) or [Alchemy](https://dashboard.alchemy.com/).
+2. Create a `.env` file in the `Ethereum` directory and add:
+
+```env
+mnemonic='Your mnemonic code'
+link='Your Infura/Alchemy endpoint URL'
+```
+
+3. Modify the Solidity contract as needed.
+4. Compile the contract:
+
+```bash
+node compile.js
+```
+
+5. Deploy the contract from the `smart-contract` directory:
+
+```bash
+node deploy.js
+```
+
+6. Copy the deployed contract address and replace it in `factory.js`.
+7. Replace your Infura/Alchemy endpoint link in `web3.js`.
+
+## Notes
+
+* Ensure you are on the **Sepolia test network** while testing.
+* For mainnet deployment, change the network configurations accordingly.
