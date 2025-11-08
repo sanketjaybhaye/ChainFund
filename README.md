@@ -1,8 +1,8 @@
 # ChainFund
 
-[![Author](https://img.shields.io/badge/Author-YourName-blue)](https://github.com/)
+[![Author](https://img.shields.io/badge/Author-SanketJaybhaye-blue)](https://github.com/)
 [![Version](https://img.shields.io/badge/Version-1.0-green)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+[![License](https://img.shields.io/badge/License-apache-2.0-yellow)]()
 
 **ChainFund** — Crowdfunding Platform Powered by Ethereum Blockchain
 
